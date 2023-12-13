@@ -38,7 +38,7 @@ function Grid({items, resultsPerPage, link}) {
                     ))
                 }
                 {items.length > (currentPage+1) * resultsPerPage && (
-                    <div className="flex flex-col justify-center text-center bg-green-500 p-6 rounded-md" onClick={handleMore}>
+                    <div className="flex flex-col justify-center text-center bg-green-500 text-gray-50 p-6 rounded-md" onClick={handleMore}>
                         <p>Más...</p>
                     </div>
                 )}
